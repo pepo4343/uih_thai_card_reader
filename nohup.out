@@ -1,0 +1,54 @@
+Waiting for ID card...
+Traceback (most recent call last):
+  File "/smartcard/main.py", line 250, in <module>
+    cardservice = cardrequest.waitforcard()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/CardRequest.py", line 69, in waitforcard
+    return self.pcsccardrequest.waitforcard()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/pcsc/PCSCCardRequest.py", line 184, in waitforcard
+    time.sleep(self.pollinginterval)
+KeyboardInterrupt
+Waiting for ID card...
+Traceback (most recent call last):
+  File "/smartcard/main.py", line 250, in <module>
+    cardservice = cardrequest.waitforcard()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/CardRequest.py", line 69, in waitforcard
+    return self.pcsccardrequest.waitforcard()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/pcsc/PCSCCardRequest.py", line 184, in waitforcard
+    time.sleep(self.pollinginterval)
+KeyboardInterrupt
+Waiting for ID card...
+Traceback (most recent call last):
+  File "/smartcard/main.py", line 250, in <module>
+    cardservice = cardrequest.waitforcard()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/CardRequest.py", line 69, in waitforcard
+    return self.pcsccardrequest.waitforcard()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/pcsc/PCSCCardRequest.py", line 184, in waitforcard
+    time.sleep(self.pollinginterval)
+KeyboardInterrupt
+Waiting for ID card...
+Traceback (most recent call last):
+  File "/smartcard/main.py", line 250, in <module>
+    cardservice = cardrequest.waitforcard()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/CardRequest.py", line 69, in waitforcard
+    return self.pcsccardrequest.waitforcard()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/pcsc/PCSCCardRequest.py", line 184, in waitforcard
+    time.sleep(self.pollinginterval)
+KeyboardInterrupt
+Waiting for ID card...
+Traceback (most recent call last):
+  File "/smartcard/main.py", line 251, in <module>
+    cardservice.connection.connect()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/CardConnectionDecorator.py", line 54, in connect
+    self.component.connect(protocol, mode, disposition)
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/pcsc/PCSCCardConnection.py", line 126, in connect
+    SCardGetErrorMessage(hresult))
+smartcard.Exceptions.CardConnectionException: Unable to connect with protocol: T0 or T1. Card is unpowered.
+Waiting for ID card...
+Traceback (most recent call last):
+  File "/smartcard/main.py", line 251, in <module>
+    cardservice.connection.connect()
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/CardConnectionDecorator.py", line 54, in connect
+    self.component.connect(protocol, mode, disposition)
+  File "/home/pi/.local/lib/python3.5/site-packages/smartcard/pcsc/PCSCCardConnection.py", line 126, in connect
+    SCardGetErrorMessage(hresult))
+smartcard.Exceptions.CardConnectionException: Unable to connect with protocol: T0 or T1. Card is unpowered.
